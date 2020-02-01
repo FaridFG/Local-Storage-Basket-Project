@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: tomato;
+    position: sticky;
+    height: 80px;
+    border: 5px dashed;
+    border-radius: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 10px 0 10px 30px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 6px 5px 10px 5px;
+}
+
+header nav ul li a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: monospace;
+    padding: 10px 20px 10px 30px;
+    margin-right: 10px;
+}
+
+header nav ul li a:hover {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    transition: background-color 1.5s;
+    transition: color 0.8s;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header nav img {
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-top: 15px;
+}
+
+header nav input {
+    width: 400px;
+    height: 50px;
+    margin-top: 13px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 180px;
+    background-color: white;
+}
+
+header nav input:focus {
+    background-color: black;
+    color: tomato;
+}
+
+header nav input[placeholder] {
+    font-size: 22px;
+    padding-left: 40px;
+}
+
+header nav i {
+    font-size: 35px;
+    color: white;
+    padding-left: 20px;
+}
+
+#search {
+    position: absolute;
+    right: 40px;
+}
+
+sup {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+.container {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+.card {
+    width: 240px;
+    background-color: tomato;
+    text-align: center;
+    margin-top: 25px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 45px;
+    border: 5px dashed;
+    border-radius: 10px;
+}
+.card img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px dashed;
+    padding: 2px;
+}
+
+.card p {
+    font-size: 25px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 15px;
+}
+
+.card button {
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: black;
+    color: white;
+    transition: background-color 1.5s;
+    transition: color 0.7s;
+}
+
+table {
+    margin-top: 50px;
+    background-color: tomato;
+    width: 80%;
+    margin-left: 10%;
+    border: 5px dashed black;
+    border-radius: 10px;
+}
+table tr {
+    border: 2px dashed;
+    border-radius: 5px;
+}
+
+table tr th {
+    font-size: 25px;
+    height: 50px;
+}
+
+table tr th:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    transition: background-color 1.5s;
+    transition: color 0.6s;
+    border-radius: 7px;;
+}
+
+table tr td {
+    border: 4px dotted;
+    border-radius: 5px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table img {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 3px dashed;
+    padding: 2px;
+}
